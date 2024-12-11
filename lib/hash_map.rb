@@ -100,7 +100,6 @@ class Hashmap
   def resize
     old_buckets = @buckets
     @capacity *= 2
-    @capacity
     @buckets = Array.new(@capacity)
     @size = 0
 
